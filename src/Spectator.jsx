@@ -5,7 +5,7 @@ import { useFrame } from '@react-three/fiber';
 
 function Spectator(props) {
 	// const { nodes } = useGLTF('public/carla-draco.glb')
-	const { scene } = useGLTF('src/assets/spectator.glb');
+	const { scene } = useGLTF('./spectator.glb');
 
 	const [hovered, set] = useState();
 	const carla = useRef();
