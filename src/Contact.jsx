@@ -2,18 +2,18 @@ import React from 'react';
 
 function Contact() {
 	return (
-		<div className='border bg-gray-700 bg-opacity-10 grid grid-cols-3 grid-rows-3 w-full h-[80%] overflow-hidden'>
-			<h1 className='font-bold text-6xl row-start-3 flex items-center justify-center'>
+		<div className='border bg-gray-700 bg-opacity-10  xl:grid xl:grid-cols-3 xl:grid-rows-3 w-full h-[80%]'>
+			<h1 className='font-bold text-2xl pt-5 xl:text-6xl xl:row-start-3 flex items-center justify-center'>
 				Contact
 			</h1>
-			<p className='text-lg col-start-3 backdrop-blur-sm pt-5 px-10'>
+			<p className='xl:text-lg xl:col-start-3 xl:backdrop-blur-sm pt-5 px-10'>
 				As certified graphics engineering experts, we have the knowledge and
 				resources to handle projects of any size and complexity, even with tight
 				deadlines. We understand that
 				{/* every project is unique, and we work closely with our clients to ensure that their vision is brought to life in a way that is both visually stunning and technically sound.
         We make our clients’ needs our priority. */}
 			</p>
-			<p className='text-lg col-start-3 row-start-2 backdrop-blur-sm px-10'>
+			<p className='xl:text-lg xl:col-start-3 xl:row-start-2 xl:backdrop-blur-sm px-10'>
 				<div>
 					<span className='font-bold'>NDA contracts: </span>We are open to
 					signing non-disclosure agreements (NDAs) to protect your intellectual
@@ -29,7 +29,7 @@ function Contact() {
           idea of the scope and cost.
         </div> */}
 			</p>
-			<div className='flex col-start-3 row-start-3 items-center justify-center  backdrop-blur-sm pb-5 px-10'>
+			<div className='flex xl:col-start-3 xl:row-start-3 items-center justify-center xl:backdrop-blur-sm py-5 px-10'>
 				<svg
 					viewBox='0 0 1024 1024'
 					fill='currentColor'
