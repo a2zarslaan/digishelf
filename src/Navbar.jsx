@@ -15,25 +15,25 @@ export default function Navbar() {
 				<div className='flex gap-4 xl:gap-12 justify-between xl:text-lg 2xl:text-2xl'>
 					<Link
 						to='/'
-						className='px-2 py-1 lg:w-20 flex justify-center hover:text-black hover:bg-white hover:font-bold'
+						className='px-2 py-1 lg:w-20 2xl:w-28 flex justify-center hover:text-black hover:bg-white hover:font-bold'
 					>
 						Home
 					</Link>
 					<Link
 						to='/about'
-						className='px-2 py-1 lg:w-20 flex justify-center hover:text-black hover:bg-white hover:font-bold'
+						className='px-2 py-1 lg:w-20 2xl:w-28 flex justify-center hover:text-black hover:bg-white hover:font-bold'
 					>
 						About
 					</Link>
 					<Link
 						to='/projects'
-						className='px-2 py-1 lg:w-20 flex justify-center hover:text-black hover:bg-white hover:font-bold'
+						className='px-2 py-1 lg:w-20 2xl:w-28 flex justify-center hover:text-black hover:bg-white hover:font-bold'
 					>
 						Projects
 					</Link>
 					<Link
 						to='/contact'
-						className='px-2 py-1 lg:w-20 flex justify-center hover:text-black hover:bg-white hover:font-bold'
+						className='px-2 py-1 lg:w-20 2xl:w-28 flex justify-center hover:text-black hover:bg-white hover:font-bold'
 					>
 						Contact
 					</Link>
