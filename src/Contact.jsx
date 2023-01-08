@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
 	return (
-		<div className='border bg-gray-700 bg-opacity-10  xl:grid xl:grid-cols-3 xl:grid-rows-3 w-full h-[80%] overflow-y-auto xl:overflow-hidden'>
+		<div className='border bg-gray-700 bg-opacity-40 xl:bg-opacity-20  xl:grid xl:grid-cols-3 xl:grid-rows-3 w-full h-[80%] overflow-y-auto xl:overflow-hidden'>
 			<h1 className='font-bold text-2xl pt-5 xl:text-6xl xl:row-start-3 flex items-center justify-center'>
 				Contact
 			</h1>
