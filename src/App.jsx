@@ -9,10 +9,22 @@ import { easing } from 'maath';
 import { Instances, Computers } from './Computers';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 import Spectator from './Spectator';
+import { useEffect } from 'react';
+
+const titles = {
+	'/': 'Welcome to DigiShelf',
+	'/about': 'About',
+	'/projects': 'Projects',
+	'/contact': 'Contact',
+};
 
 export default function App() {
+	const location = useLocation();
+	useEffect(() => {
+		document.title = titles[location.pathname] ?? 'DigiShelf';
+	}, [location]);
 	return (
 		<>
 			<Canvas
