@@ -7,7 +7,6 @@ function About() {
 			<h1 className='font-bold text-2xl pt-5 xl:text-6xl xl:row-start-3 flex items-center justify-center'>
 				About
 			</h1>
-			<div className='row-span-3'></div>
 			<p className='xl:text-xl xl:col-start-3 xl:row-span-3 p-5 xl:p-10 xl:backdrop-blur-sm'>
 				Welcome to Digishelf Studios, a leading creative 3D development agency.
 				As co-founders and Art Directors with years of experience in 3D
