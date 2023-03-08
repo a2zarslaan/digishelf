@@ -6,17 +6,20 @@ import {
 	DepthOfField,
 } from '@react-three/postprocessing';
 import { easing } from 'maath';
-import { Instances, Computers } from './Computers';
-import Navbar from './Navbar';
-import Footer from './Footer';
+import { Instances, Computers } from './models/Computers';
+import Navbar from './shared-components/Navbar.jsx';
+import Footer from './shared-components/Footer.jsx';
 import { Outlet, useLocation } from 'react-router-dom';
-import Spectator from './Spectator';
-import { useEffect } from 'react';
+import Spectator from './models/Spectator';
+import axios from 'axios';
+import { useState, useEffect } from 'react';
+
 
 const titles = {
 	'/': 'Welcome to DigiShelf',
 	'/about': 'About',
 	'/projects': 'Projects',
+	'/artworks': 'Artworks',
 	'/contact': 'Contact',
 };
 
@@ -25,6 +28,7 @@ export default function App() {
 	useEffect(() => {
 		document.title = titles[location.pathname] ?? 'DigiShelf';
 	}, [location]);
+
 	return (
 		<>
 			<Canvas

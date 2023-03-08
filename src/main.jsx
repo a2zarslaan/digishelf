@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
+import About from './pages/About.jsx';
+import Artworks from './pages/Artworks.jsx';
+import Projects from './pages/Projects.jsx';
+import Contact from './pages/Contact.jsx';
 import { createHashRouter, RouterProvider } from 'react-router-dom';
-
 import './index.css';
+
 
 const router = createHashRouter([
 	{
@@ -17,9 +18,13 @@ const router = createHashRouter([
 				path: '/about',
 				element: <About />,
 			},
+			// {
+			// 	path: '/projects',
+			// 	element: <Projects />,
+			// },
 			{
-				path: '/projects',
-				element: <Projects />,
+				path: '/artworks',
+				element: <Artworks />,
 			},
 			{
 				path: '/contact',

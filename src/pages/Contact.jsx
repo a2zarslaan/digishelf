@@ -15,8 +15,8 @@ function Contact() {
 					to life in a way that is both visually stunning and technically sound.
 					We make our clients’ needs our priority.
 				</p>
-				<hr class='h-px my-4 bg-gray-200 border-0 dark:bg-gray-700' />
-				<p>
+				<hr className='h-px my-4 bg-gray-200 border-0 dark:bg-gray-700' />
+				<div>
 					<div>
 						<span className='font-bold'>NDA contracts: </span>We are open to
 						signing non-disclosure agreements (NDAs) to protect your
@@ -58,7 +58,7 @@ function Contact() {
 							<path d='M20 8l-8 5-8-5V6l8 5 8-5m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2z' />
 						</svg>
 					</div>
-				</p>
+				</div>
 			</div>
 		</div>
 	);

@@ -8,7 +8,7 @@ import {
 	PerspectiveCamera,
 	Text,
 } from '@react-three/drei';
-import { SpinningBox } from './SpinningBox';
+import { SpinningBox } from './SpinningBox.jsx';
 THREE.ColorManagement.legacyMode = false;
 
 /*

@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from './Project';
+import Project from '../shared-components/project/Project.jsx';
 
 function Projects() {
 	return (

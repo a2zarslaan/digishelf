@@ -6,14 +6,14 @@ function Project({ heading, img, description }) {
 		<div className='grid'>
 			{/* <h1 className='font-bold text-xl'>Project Heading</h1>
 			<p className='text-sm'>Description</p> */}
-			<figure class='effect-apollo'>
+			<figure className='effect-apollo'>
 				<img src='/logo.jpg' alt='logo' />
 				<figcaption>
 					<h2>
 						Project <span>Name</span>
 					</h2>
 					<p>Description will go here</p>
-					<a href='#'>View more</a>
+					<a href='src#'>View more</a>
 				</figcaption>
 			</figure>
 		</div>
